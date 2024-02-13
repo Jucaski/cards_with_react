@@ -1,6 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
+function micontainer(){
+ return(
+  <h2>Hello</h2>  
+ );
+}
+
+
 function App() {
   return (
     <div className="App">
@@ -9,13 +16,14 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+      {micontainer}
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Well well well
         </a>
       </header>
     </div>
