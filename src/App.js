@@ -2,8 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 
 function micontainer(){
- return(
-  <h2>Hello</h2>  
+  var heelo = <h2>Hello</h2> 
+ return (
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Muhco gusta</h2>
+      </div>
+    </div>
+  </div>
  );
 }
 
@@ -16,7 +23,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-      {micontainer}
+      {micontainer()}
         <a
           className="App-link"
           href="https://reactjs.org"
